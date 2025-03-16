@@ -2,6 +2,8 @@
 
 This project implements an end-to-end MLOps pipeline for predicting whether an applicant poses a good or bad credit risk. It covers data preparation, model training and experiment tracking, model deployment, user interface development, and model monitoring.
 
+**Dataset** - [German Credit Dataset](https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data))
+
 ---
 
 ## Project Overview
@@ -22,13 +24,13 @@ This project implements an end-to-end MLOps pipeline for predicting whether an a
 
 ## Running the Notebooks and Components
 
-### Notebook1: Data Preparation and Experiment Tracking
+### Notebook 1: Data Preparation and Experiment Tracking
 - **Content:**  
   Contains code for data ingestion, data profiling, train-test-production split, building the ML pipeline, and MLflow experiment tracking.
 - **Usage:**  
   Open and run `Gr-05_Notebook-1.ipynb` in your Jupyter environment to reproduce the experiments.
 
-### Notebook2: Model Deployment using FastAPI
+### Notebook 2: Model Deployment using FastAPI
 - **Content:**  
   Contains FastAPI code to deploy the best model.
 - **Converted to Python File:**  
@@ -37,16 +39,20 @@ This project implements an end-to-end MLOps pipeline for predicting whether an a
   ```bash
   uvicorn app:app --reload
 
-### Notebook3: Streamlit UI
-**Content:**  
+### Notebook 3: Streamlit UI
+- **Content:**  
   Contains the Streamlit UI code for collecting user inputs and displaying predictions.  
-  
-**Converted to Python File:**  
+- **Converted to Python File:**  
   The code has been converted to `Streamlit.py`.  
-  
-**Run the Streamlit UI:**
+- **Run the Streamlit UI:**
   ```bash
   streamlit run Streamlit.py
+
+### Notebook 4: Model Monitoring (Data Drift Detection)
+- **Content:**  
+  Uses alibi-detect to monitor numeric and categorical drift.
+- **Usage:**  
+  Run `Gr-05_Notebook-4.ipynb` in your Jupyter environment to view drift detection results in tabular format.
 
 
 
