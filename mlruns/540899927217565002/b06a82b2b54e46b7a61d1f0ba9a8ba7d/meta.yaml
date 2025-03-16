@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/kunal/Downloads/MLOps/Project/statlog+german+credit+data/mlruns/540899927217565002/b06a82b2b54e46b7a61d1f0ba9a8ba7d/artifacts
+end_time: 1742041338257
+entry_point_name: ''
+experiment_id: '540899927217565002'
+lifecycle_stage: active
+run_id: b06a82b2b54e46b7a61d1f0ba9a8ba7d
+run_name: Decision Tree max_depth=10
+run_uuid: b06a82b2b54e46b7a61d1f0ba9a8ba7d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742041335126
+status: 3
+tags: []
+user_id: kunal

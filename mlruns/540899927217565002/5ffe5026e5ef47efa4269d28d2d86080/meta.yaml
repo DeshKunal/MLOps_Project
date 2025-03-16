@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/kunal/Downloads/MLOps/Project/statlog+german+credit+data/mlruns/540899927217565002/5ffe5026e5ef47efa4269d28d2d86080/artifacts
+end_time: 1742041344780
+entry_point_name: ''
+experiment_id: '540899927217565002'
+lifecycle_stage: active
+run_id: 5ffe5026e5ef47efa4269d28d2d86080
+run_name: SVM C=10
+run_uuid: 5ffe5026e5ef47efa4269d28d2d86080
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742041341578
+status: 3
+tags: []
+user_id: kunal
