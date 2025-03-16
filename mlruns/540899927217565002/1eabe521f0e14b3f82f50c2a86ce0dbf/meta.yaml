@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/kunal/Downloads/MLOps/Project/statlog+german+credit+data/mlruns/540899927217565002/1eabe521f0e14b3f82f50c2a86ce0dbf/artifacts
+end_time: 1742041332002
+entry_point_name: ''
+experiment_id: '540899927217565002'
+lifecycle_stage: active
+run_id: 1eabe521f0e14b3f82f50c2a86ce0dbf
+run_name: Gradient Boosting learning_rate=0.2
+run_uuid: 1eabe521f0e14b3f82f50c2a86ce0dbf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742041328172
+status: 3
+tags: []
+user_id: kunal
