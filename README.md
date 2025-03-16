@@ -39,9 +39,11 @@ This project implements an end-to-end MLOps pipeline for predicting whether an a
 
 ### Notebook3: Streamlit UI
 **Content:**  
-  Contains the Streamlit UI code for collecting user inputs and displaying predictions.
+  Contains the Streamlit UI code for collecting user inputs and displaying predictions.  
+  
 **Converted to Python File:**  
-  The code has been converted to `Streamlit.py`.
+  The code has been converted to `Streamlit.py`.  
+  
 **Run the Streamlit UI:**
   ```bash
   streamlit run Streamlit.py
