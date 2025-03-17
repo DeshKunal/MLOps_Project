@@ -22,6 +22,16 @@ This project implements an end-to-end MLOps pipeline for predicting whether an a
 
 ---
 
+## Setup Instructions
+
+- **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/<username>/MLOps_Project.git
+   cd MLOps_Project
+   
+---
+
 ## Running the Notebooks and Components
 
 ### Notebook 1: Data Preparation and Experiment Tracking
@@ -37,7 +47,8 @@ This project implements an end-to-end MLOps pipeline for predicting whether an a
   The code has been converted to `app.py` for command-line execution.
 - **Run the FastAPI App:**
   ```bash
-  uvicorn app:app --reload
+  cd "MLOps_Project"
+  uvicorn app:app --host 127.0.0.1 --port 8000 --reload
 
 ### Notebook 3: Streamlit UI
 - **Content:**  
@@ -46,6 +57,7 @@ This project implements an end-to-end MLOps pipeline for predicting whether an a
   The code has been converted to `Streamlit.py`.  
 - **Run the Streamlit UI:**
   ```bash
+  cd "MLOps_Project"
   streamlit run Streamlit.py
 
 ### Notebook 4: Model Monitoring (Data Drift Detection)
